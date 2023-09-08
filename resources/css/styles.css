@@ -1,0 +1,14 @@
+*{
+
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background-color:#ccc;
+}
+
+table {
+    background-color:#ccc;
+    border: 10px solid #f00 ;
+}
+

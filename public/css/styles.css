@@ -1,0 +1,148 @@
+*{
+
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background-color:#8686863a;
+
+}
+.allcontent{
+    background-image: url('bg.png');
+    min-height: 700px;
+}
+
+nav{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+    border-bottom: 1px solid #868686;
+    padding-top: 15px;
+    position: fixed;
+    top: 0px;
+    width: 100%;
+    background-color: #fff;
+}
+.main{
+
+    padding-top: 50px;
+}
+nav ul{
+  
+   padding: 0px 15px;
+}
+
+nav ul li {
+    display: inline-block;
+    list-style: none;
+    padding: 0px 10px;
+ 
+}
+nav ul li a{
+
+    text-decoration: none;
+    color: #000;
+}
+nav ul li:hover {
+   border-bottom: 1px solid #000;
+}
+nav ul li:hover a  {
+
+    color: #000;
+    text-decoration: none;
+ }
+
+ .user-item{
+
+    position: absolute;
+    right: 10px;
+    border: 1px solid #599e49;
+    border-radius: 5px;
+    padding: 5px 9px;
+ }
+ .user-item:hover{
+    border: 1px solid #599e49;
+ }
+.myForm{
+    margin: 35px 0px 10px 0px;
+    padding: 25px;
+    box-shadow: 2px 2px #868686, -2px -2px #868686;
+    background-color: #fff;
+    display: inline-block;
+}
+.myForm span{
+    display: block;
+}
+.myForm h3{
+    border-bottom: 1px solid #ccc;
+}
+.myForm input{
+    padding: 10px;
+    width: 250px;
+    margin: 5px;
+    border: none;
+    border-bottom: 1px solid #000;
+}
+.myForm td{
+    padding: 10px 0px;
+}
+button {
+
+    width: 120px;
+    padding:  10px 20px;
+    background-color: #56cc87;
+    border: none;
+    color: #fff;
+    margin: 10px 0px;
+}
+
+.myForm select{
+
+    padding: 10px;
+    width: 200px;
+    color: #000;
+
+}
+.myForm input[type="radio"]{
+
+    padding: 2px;
+    width: 50px;
+    
+}
+
+.myList{
+
+    padding: 25px 50px;
+    background-color: #fff;
+    box-shadow: 2px 2px #868686;
+    display: inline-block;
+    margin: 0px 500px;
+}
+.myList td{
+    border-bottom: 1px solid #ccc;
+
+}
+.list-item{
+    padding: 20px  5px;
+
+}
+
+
+.B{
+    padding: 10px;
+    width: 100%;
+    border-radius: 5px;
+    background-color:#599e49;
+}
+
+.sb{
+    padding: 10px;
+    width: 100px;
+    border-radius: 5px;
+    background-color:#599e49;
+
+}
+
+.sf{
+    margin-left: 450px;
+}
